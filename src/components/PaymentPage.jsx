@@ -27,7 +27,7 @@ const PaymentPage = () => {
     const initiatePayment = async () => {
       try {
         const stripe = await stripePromise;
-        const response = await fetch("/api/create-checkout-session", {
+        const response = await fetch("https://ecommerce-backend-0t7k.onrender.com/api/create-checkout-session", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
