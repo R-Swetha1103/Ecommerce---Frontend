@@ -2,7 +2,7 @@ const PaymentPage = () => {
     const initiatePayment = async () => {
       try {
         const response = await fetch(
-          "http://localhost:5001/api/payments/create-checkout-session",
+          "https://ecommerce-backend-0t7k.onrender.com/api/payments/create-checkout-session",
           {
             method: "POST",
             headers: {

@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5001/api/products"; // Correct endpoint
+const API_URL = "https://ecommerce-backend-0t7k.onrender.com/api/products"; // Correct endpoint
 
 export const fetchProducts = async (category = "") => {
   try {

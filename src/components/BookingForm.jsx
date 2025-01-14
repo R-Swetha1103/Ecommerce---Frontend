@@ -28,7 +28,7 @@ const BookingForm = ({ product, onClose, show }) => {
     const items = [{ id: product._id, quantity }];
 
     fetch(
-      "http://localhost:5001/api/create-checkout-session",
+      "https://ecommerce-backend-0t7k.onrender.com/api/create-checkout-session",
       {
         method: "POST",
         headers: {
