@@ -22,7 +22,7 @@ const App = () => {
         <Route path="/my-bookings" element={<MyBookings />} />
         <Route path="/cart" element={<CartPage />} />
         <Route path="/success" element={<Success />} />
-        <Route path="/cancel" element={<cancel />} />
+        <Route path="/cancel" element={<Cancel />} />
       </Routes>
     </Router>
   );
