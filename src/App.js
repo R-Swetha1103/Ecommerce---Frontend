@@ -5,7 +5,7 @@ import ProductList from "./components/ProductList";
 import MyBookings from "./components/MyBookings";
 import CartPage from "./components/CartPage";
 import Success from "./components/Success";
-import cancel from "./components/cancel";
+import Cancel from "./components/Cancel";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
