@@ -5,7 +5,7 @@ import ProductList from "./components/ProductList";
 import MyBookings from "./components/MyBookings";
 import CartPage from "./components/CartPage";
 import Success from "./components/Success";
-import Cancel from "./components/cancel";
+import cancel from "./components/cancel";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
@@ -22,7 +22,7 @@ const App = () => {
         <Route path="/my-bookings" element={<MyBookings />} />
         <Route path="/cart" element={<CartPage />} />
         <Route path="/success" element={<Success />} />
-        <Route path="/cancel" element={<Cancel />} />
+        <Route path="/cancel" element={<cancel />} />
       </Routes>
     </Router>
   );
